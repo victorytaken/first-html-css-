@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 16%;
+}
+
+body {
+    font-size: 15px;
+    font-family: Poppins;
+    background-color: hsl(0, 0%, 98%);
+    /* background-color: red; */
+
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+nav h3 {
+    text-align: center;
+    font-size: 8rem;
+    font-weight: 200;
+}
+
+/* nav h4 {
+    width: 360px;
+    padding: 8px;
+    font-size: 4.5rem;
+    text-align: center;
+    font-weight: 200;
+} */
+
+nav h2 {
+    text-align: center;
+    font-size: 8rem;
+    font-weight: 600;
+}
+
+/* home section */
+
+.items p {
+    font-family: Poppins;
+    font-weight: 200;
+    font-size: 4.5rem;
+}
+
+
+nav h3 {
+    font-size: 7rem;
+}
+
+nav h4 {
+    text-align: center;
+    word-wrap: break-word;
+    font-weight: 200;
+
+}
+
+nav h2 {
+    text-align: center;
+    font-size: 7rem;
+    font-weight: 600;
+}
+
+nav div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.home {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 7rem;
+    padding: 0 77rem;
+    margin-top: 40px;
+}
+
+.items {
+    border-radius: 4rem;
+    box-shadow: 2px 5px 10px hsl(0, 7%, 78%);
+}
+
+.items1 {
+    grid-area: 2/1/4/2;
+
+}
+
+.items2 {
+    grid-area: 1/2/3/3;
+
+}
+
+.items3 {
+    grid-area: 2/3/4/4;
+
+}
+
+.items4 {
+    grid-area: 3/2/5/3;
+
+}
+
+.small_box1 {
+    height: 5px;
+    width: 100%;
+    background-color: hsl(180, 62%, 55%);
+}
+
+.small_box2 {
+    height: 5px;
+    width: 100%;
+    background-color: hsl(0, 78%, 62%);
+}
+
+.small_box3 {
+    height: 5px;
+    width: 100%;
+    background-color: hsl(212, 86%, 64%);
+}
+
+.small_box4 {
+    height: 5px;
+    width: 100%;
+    background-color: hsl(34, 97%, 64%);
+}
+
+.big_box {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 84px;
+}
+
+.imgconatiner {
+    display: flex;
+    justify-content: end;
+    padding: 30px;
+
+}
+
+/* row start/column start/row end/column end */
